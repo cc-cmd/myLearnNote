@@ -6,6 +6,36 @@
 2. 若是在关闭节点后浏览器报错：您的代理服务器可能有问题，。。。
 控制面板-》internet设置-》连接-》局域网设置-》勾销lan-》重启浏览器即可
 
-国内环境翻墙网站：
+国内环境翻墙网站（免费）：
 1. hyperbeam
 2. vpngate（C2827206516@163.com）镜像网址
+
+已注册的邮箱：
+cc99cmd@gmail.com
+cc99cmd@proton.me
+
+机场网站：
+https://suyunti.com/user                   速运梯
+http://aff01.fyb-aff01.com/user            飞鸟云
+
+
+VPN：
+privadoVPN     用户名：pvtqdeig926051  密码：X!GNM#%Loq6o
+zoogVpn
+https://windscribe.com/
+
+免费vpn推荐：
+proton vpn （真正免费的vpn 不限流量）
+http://bit.ly/3OAUGRO
+
+privado vpn  (中国可用）
+官网：http://bit.ly/3IO5WI1
+privado vpn  (中国可用）
+👍三折优惠链接
+https://bit.ly/3UmIar0
+
+zoog vpn      (中国可用）
+http://bit.ly/3YqdCpW
+
+windscribe  (中国可用）
+http://bit.ly/3FGb1lw
