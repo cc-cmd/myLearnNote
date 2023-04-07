@@ -70,6 +70,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>D:\A-learn\毕业设计\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;D:\A-learn\毕业设计\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0;D:\A-learn\毕业设计\gstreamer\1.0\msvc_x86_64\include\glib-2.0;D:\A-learn\毕业设计\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib;$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -104,10 +107,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\A-Learn\毕业设计\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;D:\A-Learn\毕业设计\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0;D:\A-Learn\毕业设计\gstreamer\1.0\msvc_x86_64\include\glib-2.0;D:\A-Learn\毕业设计\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\A-Learn\毕业设计\gstreamer\1.0\msvc_x86_64\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>gobject-2.0.lib;glib-2.0.lib;gstreamer-1.0.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -127,8 +133,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="helloworld.c" />
     <ClCompile Include="system.c" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="tictactoe.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

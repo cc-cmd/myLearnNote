@@ -1,2 +1,2 @@
-﻿  system.c
-  program01.vcxproj -> D:\A-Learn\learnote\myLearnNote\gstreamer note\program01\x64\Debug\program01.exe
+﻿test.obj : error LNK2005: main 已经在 system.obj 中定义
+D:\A-Learn\learnote\myLearnNote\gstreamer note\program01\x64\Debug\program01.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
